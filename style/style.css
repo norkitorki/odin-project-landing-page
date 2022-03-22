@@ -9,3 +9,9 @@
   src: url('../fonts/Roboto/Roboto-LightItalic.ttf') format(truetype);
   font-style: italic;
 }
+
+:root {
+  --main-font-color: #ffffff;
+  --main-bg-color: #1f2937;
+  --main-border-color: #0084db;
+}
