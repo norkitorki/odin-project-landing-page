@@ -15,3 +15,8 @@
   --main-bg-color: #1f2937;
   --main-border-color: #0084db;
 }
+
+body {
+  color: var(--main-font-color);
+  font-family: Roboto-Black, sans-serif, Arial;
+}
