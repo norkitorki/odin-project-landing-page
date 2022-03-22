@@ -20,3 +20,8 @@ body {
   color: var(--main-font-color);
   font-family: Roboto-Black, sans-serif, Arial;
 }
+
+header,
+footer {
+  background-color: var(--main-bg-color);
+}
