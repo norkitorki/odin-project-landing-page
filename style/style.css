@@ -90,3 +90,15 @@ footer {
   border: 2px solid var(--main-border-color);
   border-radius: 4px;
 }
+
+.img-credit {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  color: var(--main-font-color);
+  font-size: 12px;
+}
+
+.img-credit > a {
+  color: var(--main-font-color);
+}
