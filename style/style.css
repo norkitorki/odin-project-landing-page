@@ -25,3 +25,33 @@ header,
 footer {
   background-color: var(--main-bg-color);
 }
+
+.nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav > .logo {
+  color: var(--main-font-color);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.nav > ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: var(--main-font-color);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  color: #2d6efc;
+}
