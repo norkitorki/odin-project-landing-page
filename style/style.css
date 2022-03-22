@@ -150,3 +150,25 @@ button[type="button"]:hover {
   font-size: 18px;
   margin-top: 10px;
 }
+
+.quote-container {
+  color: var(--main-bg-color);
+  background-color: #e5e7eb;
+  padding: 100px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container .quote {
+  max-width: 900px;
+  font-family: Roboto-LightItalic;
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.quote-container .quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  float: right;
+} 
