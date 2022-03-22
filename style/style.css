@@ -204,3 +204,16 @@ section {
 .contact-container > button[type="button"] {
   outline: 2px solid var(--main-font-color);
 }
+
+footer {
+  padding: 35px;
+  display: flex;
+}
+
+footer > span {
+  margin: auto;
+}
+
+footer > span > a {
+  color: var(--main-font-color)
+}
